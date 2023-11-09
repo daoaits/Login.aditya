@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="styles.css">
+</head>
+<body>
+  <style>
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(login.jpeg);
+}
+
+.login {
+    font-size: 25px;
+
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login h2 {
+    color: white;
+}
+
+.container {
+    border: 3px solid  rgb(226, 210, 210);
+    width: 35%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.isian {
+    padding-bottom: 60px;
+    line-height: 20px;
+}
+
+input {
+    padding-bottom: 15px;
+    align-items: start;
+    flex-direction: column;
+    width: 80%;
+}
+
+.login1 {
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+button {
+    border: solid white;
+    font-weight: bold;
+    padding: 12px;
+    margin: 10px 40px;
+    font-size: 17px;
+    width: 150px;
+    border-radius: 12px;
+    background: transparent;
+    color: white;
+}
+
+.nama, .email, .password, .confirmpassword {
+    border: solid black;
+    border-radius: 10px;
+    font-size: 1,2rem;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.nama, .email, .password, .confirmpassword:focus {
+    width: 90%;
+    animation-name: colorChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+button:hover {
+    background: cyan;
+    border: 2px solid cyan;
+}
+
+.regist {
+    padding-bottom: 20px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+  </style>
+    <div class="container">
+        <table>
+            <div class="login">
+                <h2>Login</h2>
+            </div>
+            <div class="isian">
+                <input type="Email" name="Email" class="email" placeholder="Email">
+                <br>
+                <input type="Password" name="Password" class="password" placeholder="Password">
+                <br>
+            </div>
+
+            <div class="login1">
+                <button>Login</button>
+            </div>
+            <div class="regist">
+                <p>Belum punya akun?<a href="file:///C:/Users/intel/Desktop/sign%20adit/index.html">Sign Up</a></p>
+            </div>
+        </table>
+    </div>
+</body>     
+</div>
+</html>
